@@ -12,6 +12,25 @@ This application includes:
 
 ---
 
+## 📚 Table of Contents
+
+- [📌 Prerequisites](#-prerequisites)
+- [🌐 Port Overview](#-port-overview)
+- [📁 Project Structure](#-project-structure)
+- [⚙️ Backend Setup (Express + MongoDB)](#️-backend-setup-express--mongodb)
+- [💻 Frontend Setup (Angular)](#-frontend-setup-angular)
+- [🔐 Authentication](#-authentication)
+- [✨ Features](#-features)
+- [📊 Data Visualization](#-data-visualization)
+- [🧪 Testing](#-testing)
+  - [🧪 Backend (Jest + Supertest)](#-backend-jest--supertest)
+  - [🧪 Frontend (Jasmine + Karma)](#-frontend-jasmine--karma)
+  - [🎭 E2E Tests (Playwright)](#-e2e-tests-playwright)
+- [🧰 Tech Stack](#-tech-stack)
+- [🧾 .gitignore](#-gitignore)
+- [🔐 Sample Login](#-sample-login)
+---
+
 ## 📌 Prerequisites
 
 Ensure the following tools are installed:
@@ -38,6 +57,7 @@ Ensure the following tools are installed:
 ## 📁 Project Structure
 
 ```
+
 sensex-app/
 ├── backend/                     # Node.js + Express API
 │   ├── assets/                  # Sample CSV data file
@@ -207,7 +227,7 @@ E2E Scenarios:
 
 ---
 
-## 🧾 Tech Stack
+## 🧰 Tech Stack
 * **Frontend:** Angular 16, Chart.js, RxJS
 * **Backend:** Node.js, Express, Mongoose, JWT
 * **Database:** MongoDB
