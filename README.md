@@ -207,9 +207,19 @@ E2E Scenarios:
 
 ---
 
+## 🧾 Tech Stack
+* **Frontend:** Angular 16, Chart.js, RxJS
+* **Backend:** Node.js, Express, Mongoose, JWT
+* **Database:** MongoDB
+* **Testing:** Jest, Supertest, Jasmine, Karma, Playwright
+* **Real-time:** Socket.IO
+  
+---
+
 ## 🧾 .gitignore
 
 ```
+
 # Ignore all node_modules
 **/node_modules/
 
