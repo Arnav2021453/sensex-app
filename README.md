@@ -152,6 +152,9 @@ Open in browser: [http://localhost:4200](http://localhost:4200)
 * JWT-based login (handled via Angular + Express)
 * Token stored in `localStorage` and attached via interceptor
 * Backend validates JWT on protected routes
+- 🔒 **Auto Logout on Token Expiration**:
+  - When the JWT token expires, the frontend detects this on any API call.
+  - The user is automatically logged out and redirected to the login page.
 
 ---
 
