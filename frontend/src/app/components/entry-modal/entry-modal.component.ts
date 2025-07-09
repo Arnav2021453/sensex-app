@@ -13,13 +13,6 @@ export class EntryModalComponent {
   close=null;
   @Output() addEntry=new EventEmitter<{Open:number,Close:number}>();
   @Output() closeModal=new EventEmitter<void>();
-  // submit(){
-  //   if(this.open!=null && this.close!=null){
-  //     this.addEntry.emit({Open:+this.open,Close:+this.close});
-  //     this.open=null;
-  //     this.close=null;
-  //   }
-  // }
   submit(form:NgForm){
     if(this.open!=null && this.close!=null){
       this.addEntry.emit({Open:+this.open,Close:+this.close});

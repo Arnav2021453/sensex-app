@@ -29,9 +29,6 @@ export class AuthService {
     clearTimeout(this.logouttimer);
     this.router.navigate(['/login']);
   }
-  // isLoggedIn(): boolean {
-  //   return !!this.getToken();
-  // }
   isLoggedIn(): boolean {
     const token=this.getToken();
     if(!token) return false;

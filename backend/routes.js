@@ -1,6 +1,5 @@
 "use strict";
 
-// const express = require("express");
 module.exports = function (app) {
   function logger(req, res, next) {
     console.log(new Date(), req.method, req.url);

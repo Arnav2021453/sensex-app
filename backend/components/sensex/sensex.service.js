@@ -56,13 +56,3 @@ exports.getMonthlyAverages = async () => {
     avgClose: parseFloat(item.avgClose.toFixed(2)),
   }));
 };
-
-// const sensexService = {
-//   getSensexData: async function () {
-//     try {
-//       return [];
-//     } catch (err) {}
-//   },
-// };
-
-// module.exports = sensexService;

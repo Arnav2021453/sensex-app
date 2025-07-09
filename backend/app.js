@@ -4,8 +4,6 @@ const http = require("http");
 const socketIo = require("socket.io");
 require("dotenv").config();
 const cors = require("cors");
-// const users = [{ email: "b@gmail.com", pass: "abcd" }];
-// const config = require("./config/env");
 const bodyParser = require("body-parser");
 const connectMongo = require("./db/mongoConnection");
 const importIfEmpty = require("./scripts/populateData");
@@ -19,9 +17,6 @@ const startServer = async () => {
     // app.use(express.json());
     // app.use(express.json({ limit: "50mb" }));
     app.use(bodyParser.json({ limit: "50mb" }));
-
-    //connect Database
-    //Call a JS script(if collection already has data then no touching) that will fetch data from csv and store it in the mongodb
 
     await connectMongo();
     console.log("MongoDB connected");
@@ -62,10 +57,6 @@ const startServer = async () => {
   } catch (error) {
     console.error("Failed to resolve references:", error);
   }
-
-  // Expose app
-  // exports = module.exports = app;
 };
 
 startServer();
-// require("./routes")(app);
