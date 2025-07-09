@@ -11,7 +11,7 @@ export class AuthService {
   private logouttimer:any;
   constructor(private http: HttpClient, private router: Router) {
     this.autoLogoutAfterTokenExpires();
-   }
+  }
   login(email: string, password: string) {
     return this.http.post<{ token: string }>(`${this.apiUrl}/auth/login`,{email,password});
   }
