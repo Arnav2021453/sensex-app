@@ -127,7 +127,7 @@ npm start
 ### 1. Navigate to the frontend directory
 
 ```
-cd ../frontend
+cd frontend
 ```
 
 ### 2. Install dependencies
