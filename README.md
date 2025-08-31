@@ -35,7 +35,7 @@ This application includes:
 
 Ensure the following tools are installed:
 
-- [Node.js](https://nodejs.org/) (v16 or higher)
+- [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 - [Angular CLI](https://angular.io/cli)
 - [MongoDB](https://www.mongodb.com/try/download/community)
