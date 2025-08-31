@@ -39,7 +39,6 @@ Ensure the following tools are installed:
 - [npm](https://www.npmjs.com/)
 - [Angular CLI](https://angular.io/cli)
 - [MongoDB](https://www.mongodb.com/try/download/community)
-- [Playwright](https://playwright.dev/) (optional, for E2E tests)
 
 ---
 
