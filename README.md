@@ -116,7 +116,7 @@ MONGO_URI=mongodb://localhost:27017/sensex
 ### 4. Start the backend server
 
 ```
-node app.js
+npm start
 ```
 
 * Runs at: [http://localhost:3000](http://localhost:3000)
@@ -140,7 +140,7 @@ npm install
 ### 3. Run Angular dev server
 
 ```
-ng serve
+npm start
 ```
 
 Open in browser: [http://localhost:4200](http://localhost:4200)
