@@ -1,12 +1,7 @@
-const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const User = require("../models/Users");
-require("dotenv").config();
-const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/sensex";
 const seedUsers = async () => {
   try {
-    await mongoose.connect(MONGO_URI);
-    console.log("Connected to MongoDB");
     const users = [
       { username: "Arnav", email: "arnav@example.com", password: "pass123" },
       { username: "Neha", email: "neha@example.com", password: "secure456" },
