@@ -7,11 +7,7 @@ const seedUsers = async () => {
       { username: "Neha", email: "neha@example.com", password: "secure456" },
       { username: "Rahul", email: "rahul@example.com", password: "stock789" },
       { username: "Priya", email: "priya@example.com", password: "mypwd321" },
-      {
-        username: "Vikram",
-        email: "vikram@example.com",
-        password: "jwtuser2024",
-      },
+      { username: "Vikram", email: "vikram@example.com", password: "jwtuser2024" }
     ];
     const hashedUsers = await Promise.all(
       users.map(async (user) => ({
