@@ -8,7 +8,7 @@ import { io, Socket } from 'socket.io-client';
 export class SocketService {
   private socket:Socket
   constructor() { 
-    this.socket=io('http://localhost:3000');
+    this.socket=io('https://sensex-app-backend.onrender.com');
   }
   onNewStock():Observable<void>{
     return new Observable(observer=>{

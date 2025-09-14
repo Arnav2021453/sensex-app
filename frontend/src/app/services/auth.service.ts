@@ -6,7 +6,7 @@ import {jwtDecode} from 'jwt-decode';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl='http://localhost:3000';
+  private apiUrl='https://sensex-app-backend.onrender.com';
   private token: string | null = null;
   private logouttimer:any;
   constructor(private http: HttpClient, private router: Router) {

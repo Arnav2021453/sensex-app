@@ -65,7 +65,7 @@ export class MonthlyBarChartComponent implements OnInit {
       this.auth.logout();
       return;
     }
-    this.http.get<any[]>('http://localhost:3000/sensex/monthly-averages')
+    this.http.get<any[]>('https://sensex-app-backend.onrender.com/sensex/monthly-averages')
     .subscribe(data=>{
       this.barChartLabels=data.map(d=>d.month);
       this.barChartData[0].data=data.map(d=>d.avgClose);
